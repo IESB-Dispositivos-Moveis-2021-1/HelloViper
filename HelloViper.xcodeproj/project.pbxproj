@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D21BAD337961B6CCB963A95C /* Pods_HelloViper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EDC42CE8E4D69C981ED6A94 /* Pods_HelloViper.framework */; };
 		EB4B654F272B6CDC00AE0522 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4B654E272B6CDC00AE0522 /* AppDelegate.swift */; };
-		EB4B6551272B6CDC00AE0522 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4B6550272B6CDC00AE0522 /* SceneDelegate.swift */; };
-		EB4B6553272B6CDC00AE0522 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4B6552272B6CDC00AE0522 /* ViewController.swift */; };
-		EB4B6556272B6CDC00AE0522 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4B6554272B6CDC00AE0522 /* Main.storyboard */; };
 		EB4B6558272B6CDE00AE0522 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB4B6557272B6CDE00AE0522 /* Assets.xcassets */; };
 		EB4B655B272B6CDE00AE0522 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4B6559272B6CDE00AE0522 /* LaunchScreen.storyboard */; };
+		EB4B6568272B6D4400AE0522 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4B6567272B6D4400AE0522 /* LoginRouter.swift */; };
+		EB4B656A272B6DA400AE0522 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4B6569272B6DA400AE0522 /* User.swift */; };
+		EB4B656C272B6DC300AE0522 /* LoginClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4B656B272B6DC300AE0522 /* LoginClient.swift */; };
+		EB4B656F272B6E7F00AE0522 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4B656D272B6E7F00AE0522 /* LoginViewController.swift */; };
+		EB4B6570272B6E7F00AE0522 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB4B656E272B6E7F00AE0522 /* LoginViewController.xib */; };
+		EB4B6572272B725300AE0522 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4B6571272B725300AE0522 /* LoginPresenter.swift */; };
+		EB4B6574272B747F00AE0522 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4B6573272B747F00AE0522 /* LoginInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2EDC42CE8E4D69C981ED6A94 /* Pods_HelloViper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloViper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D6B5B61D3070C09CEE7384E /* Pods-HelloViper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloViper.debug.xcconfig"; path = "Target Support Files/Pods-HelloViper/Pods-HelloViper.debug.xcconfig"; sourceTree = "<group>"; };
+		5D3EF3A4A9C12BEBB166E7BF /* Pods-HelloViper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloViper.release.xcconfig"; path = "Target Support Files/Pods-HelloViper/Pods-HelloViper.release.xcconfig"; sourceTree = "<group>"; };
 		EB4B654B272B6CDC00AE0522 /* HelloViper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloViper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB4B654E272B6CDC00AE0522 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EB4B6550272B6CDC00AE0522 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EB4B6552272B6CDC00AE0522 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EB4B6555272B6CDC00AE0522 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB4B6557272B6CDE00AE0522 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB4B655A272B6CDE00AE0522 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB4B655C272B6CDE00AE0522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB4B6567272B6D4400AE0522 /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		EB4B6569272B6DA400AE0522 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EB4B656B272B6DC300AE0522 /* LoginClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginClient.swift; sourceTree = "<group>"; };
+		EB4B656D272B6E7F00AE0522 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EB4B656E272B6E7F00AE0522 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		EB4B6571272B725300AE0522 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		EB4B6573272B747F00AE0522 /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D21BAD337961B6CCB963A95C /* Pods_HelloViper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9981147EE658FB7E1514C6F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D6B5B61D3070C09CEE7384E /* Pods-HelloViper.debug.xcconfig */,
+				5D3EF3A4A9C12BEBB166E7BF /* Pods-HelloViper.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D770E4ECFEDAD32B162729CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2EDC42CE8E4D69C981ED6A94 /* Pods_HelloViper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EB4B6542272B6CDC00AE0522 = {
 			isa = PBXGroup;
 			children = (
 				EB4B654D272B6CDC00AE0522 /* HelloViper */,
 				EB4B654C272B6CDC00AE0522 /* Products */,
+				9981147EE658FB7E1514C6F7 /* Pods */,
+				D770E4ECFEDAD32B162729CA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +88,59 @@
 		EB4B654D272B6CDC00AE0522 /* HelloViper */ = {
 			isa = PBXGroup;
 			children = (
+				EB4B6566272B6D1B00AE0522 /* View */,
+				EB4B6565272B6D1400AE0522 /* Interactor */,
+				EB4B6564272B6D0D00AE0522 /* Presenter */,
+				EB4B6563272B6D0600AE0522 /* Entity */,
+				EB4B6562272B6CFF00AE0522 /* Router */,
 				EB4B654E272B6CDC00AE0522 /* AppDelegate.swift */,
-				EB4B6550272B6CDC00AE0522 /* SceneDelegate.swift */,
-				EB4B6552272B6CDC00AE0522 /* ViewController.swift */,
-				EB4B6554272B6CDC00AE0522 /* Main.storyboard */,
 				EB4B6557272B6CDE00AE0522 /* Assets.xcassets */,
 				EB4B6559272B6CDE00AE0522 /* LaunchScreen.storyboard */,
 				EB4B655C272B6CDE00AE0522 /* Info.plist */,
 			);
 			path = HelloViper;
+			sourceTree = "<group>";
+		};
+		EB4B6562272B6CFF00AE0522 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				EB4B6567272B6D4400AE0522 /* LoginRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		EB4B6563272B6D0600AE0522 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				EB4B6569272B6DA400AE0522 /* User.swift */,
+				EB4B656B272B6DC300AE0522 /* LoginClient.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		EB4B6564272B6D0D00AE0522 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				EB4B6571272B725300AE0522 /* LoginPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		EB4B6565272B6D1400AE0522 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				EB4B6573272B747F00AE0522 /* LoginInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		EB4B6566272B6D1B00AE0522 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EB4B656D272B6E7F00AE0522 /* LoginViewController.swift */,
+				EB4B656E272B6E7F00AE0522 /* LoginViewController.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +150,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB4B655F272B6CDE00AE0522 /* Build configuration list for PBXNativeTarget "HelloViper" */;
 			buildPhases = (
+				58968116EC9B605992C74285 /* [CP] Check Pods Manifest.lock */,
 				EB4B6547272B6CDC00AE0522 /* Sources */,
 				EB4B6548272B6CDC00AE0522 /* Frameworks */,
 				EB4B6549272B6CDC00AE0522 /* Resources */,
+				919F069A02BC4D0B9FBAC05D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +205,72 @@
 			files = (
 				EB4B655B272B6CDE00AE0522 /* LaunchScreen.storyboard in Resources */,
 				EB4B6558272B6CDE00AE0522 /* Assets.xcassets in Resources */,
-				EB4B6556272B6CDC00AE0522 /* Main.storyboard in Resources */,
+				EB4B6570272B6E7F00AE0522 /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58968116EC9B605992C74285 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloViper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		919F069A02BC4D0B9FBAC05D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HelloViper/Pods-HelloViper-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HelloViper/Pods-HelloViper-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelloViper/Pods-HelloViper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EB4B6547272B6CDC00AE0522 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB4B6553272B6CDC00AE0522 /* ViewController.swift in Sources */,
+				EB4B656F272B6E7F00AE0522 /* LoginViewController.swift in Sources */,
+				EB4B656A272B6DA400AE0522 /* User.swift in Sources */,
+				EB4B6572272B725300AE0522 /* LoginPresenter.swift in Sources */,
+				EB4B656C272B6DC300AE0522 /* LoginClient.swift in Sources */,
+				EB4B6574272B747F00AE0522 /* LoginInteractor.swift in Sources */,
 				EB4B654F272B6CDC00AE0522 /* AppDelegate.swift in Sources */,
-				EB4B6551272B6CDC00AE0522 /* SceneDelegate.swift in Sources */,
+				EB4B6568272B6D4400AE0522 /* LoginRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EB4B6554272B6CDC00AE0522 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EB4B6555272B6CDC00AE0522 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EB4B6559272B6CDE00AE0522 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,6 +400,7 @@
 		};
 		EB4B6560272B6CDE00AE0522 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D6B5B61D3070C09CEE7384E /* Pods-HelloViper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -293,7 +410,7 @@
 				INFOPLIST_FILE = HelloViper/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -311,6 +428,7 @@
 		};
 		EB4B6561272B6CDE00AE0522 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D3EF3A4A9C12BEBB166E7BF /* Pods-HelloViper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +438,7 @@
 				INFOPLIST_FILE = HelloViper/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
